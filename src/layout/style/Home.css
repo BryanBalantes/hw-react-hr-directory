@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+.tables-wrapper {
+  width: 100%;
+}
+
+.tables {
+  position: relative;
+ 
+  left: 550px;
+  display: block;
+  overflow: hidden;
+  table-layout: auto;
+  border-collapse: collapse;
+  box-shadow: 0px 10px 10px #ccc;
+  border-radius: 10px;
+  white-space: nowrap;
+  width: 25.8%;
+  overflow-x: auto;
+}
+
+.tables thead {
+  background-color: #ccc;
+  color: #222;
+}
+
+.tables th,
+.tables td {
+  padding: 0.8rem;
+}
+
+.tables td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: justify;
+  margin-left: 10px;
+}
+
+.tables tbody tr:hover {
+  background-color: #eee;
+}
+
+h1 {
+  text-align: center;
+}
